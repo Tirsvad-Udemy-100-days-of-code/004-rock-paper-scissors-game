@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-004 (Go) | [d3c74f5] |
+| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Initial version; accepted after RC-004 (Go) | [d3c74f5] |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Closed the open issue on the coloured title (kept, RC-008); accepted after RC-010 (Go) | [1428c08] |
 
 ---
 
@@ -82,8 +83,6 @@ MIL-002 moves only the end date. S01 decides any move of the end date.
 
 ## Open Issues
 
-- The Business Case says "ASCII art"; the game also colours its title. The
-  review in [MIL-002] task 1 decides whether the colouring stays.
 - No publish workflow is installed, so publishing the milestones to the git
   host needs `sync-project.sh --apply` and a token.
 
@@ -97,3 +96,4 @@ MIL-002 moves only the end date. S01 decides any move of the end date.
 [MS-001]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/milestone/499
 [MS-002]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/milestone/500
 [d3c74f5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/d3c74f56d4214003f20c8c78a96173b793e43a56
+[1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1
