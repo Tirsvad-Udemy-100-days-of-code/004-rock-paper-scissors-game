@@ -11,12 +11,15 @@ A beginner-friendly Python program to play Rock, Paper, Scissors against the com
 - [Tests](#-tests)
 - [License](#-license)
 - [Links](#-links)
+- [Appendix: Project documents](#-appendix-project-documents)
 
 ## 🧭 Overview
 
 You choose `0` (Rock), `1` (Paper) or `2` (Scissors); the computer picks randomly using the `random` module. Both choices are shown as ASCII art, and the winner is decided with `if`/`elif`/`else` logic (rock beats scissors, scissors beats paper, paper beats rock). Draws and invalid input are handled.
 
 ![Screenshot of the game](docs/screenshot.png)
+
+The repository holds the game in `src/rock_paper_scissors/`, its tests in `tests/`, and the project documents in `docs/`, which follow the SQA and QC framework in `framework/`.
 
 ## 📋 Requirements
 
@@ -71,10 +74,41 @@ python -m pytest
 
 ## 📄 License
 
-GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later).
+GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later). See [LICENSE](./LICENSE).
 
 ## 🔗 Links
 
-- [Repository](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code)
-- [Documentation](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/004-rock_paper_scissors_game#readme)
-- [Issue tracker](https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/004-rock_paper_scissors_game/issues)
+- [Repository][repository]
+- [Documentation][documentation]
+- [Issue tracker][issues]
+
+## 📎 Appendix: Project documents
+
+The documents a newcomer needs, in reading order.
+
+| Document | What it tells you |
+| --- | --- |
+| [AGENTS.md][agents] | The rules AI agents follow in this repository |
+| [Business Case][BC-001] | Why the project exists, its scope and success criteria |
+| [Stakeholder Analysis][SA-001] | Who is involved; the stakeholder IDs used for owners and reviewers |
+| [Project Plan][PP-001] | The gateways and their schedule |
+| [Milestones][milestones] | One document per gateway: Go/No-Go criteria and tasks |
+| [Artifact registry][registry] | Where each artifact type lives, the next version, the PO language and domain |
+| [Traceability matrix][TM-001] | How the artifacts link and when each was last reviewed |
+| [Framework README][framework-readme] | The framework this project uses |
+| [Framework changelog][framework-changelog] | What changed in each framework release |
+
+---
+
+[repository]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game
+[documentation]: ./docs/
+[issues]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/issues
+[agents]: ./AGENTS.md
+[BC-001]: ./docs/business-case.md
+[SA-001]: ./docs/stakeholder-analysis.md
+[PP-001]: ./docs/project-plan.md
+[milestones]: ./docs/milestones/
+[registry]: ./docs/artifact-registry.md
+[TM-001]: ./docs/sqa/traceability-matrix.md
+[framework-readme]: ./framework/README.md
+[framework-changelog]: ./framework/CHANGELOG.md
