@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added RC-014 to RC-016 and the Danish and Malay wiki; accepted on S01's instruction in chat, 2026-11-15 | [974b467] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added RC-017, the closing wiki review; accepted on S01's instruction in chat, 2026-11-15 | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added RC-017, the closing wiki review; accepted on S01's instruction in chat, 2026-11-15 | [f1d31d7] |
 
 ---
 
@@ -87,3 +87,4 @@ updated whenever an artifact instance is created or reviewed.
 [1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1
 [4f0682a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/4f0682a2233d43d9da078d6dfcecf3cfcb2a1c84
 [974b467]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/974b46770f865529c2f2d8808e7e6e97b4ccbc66
+[f1d31d7]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/f1d31d720c2a24909b5080bd64d66c90d7fda065
