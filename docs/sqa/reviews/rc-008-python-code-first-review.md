@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | [1428c08] |
 
 ---
 
@@ -64,3 +64,4 @@ No-Go: Mandatory criteria 3, 15, 16 and 17 fail, which are blocking findings, an
 [MIL-002]: ../milestones/mil-002-first-release.md
 [ADR-0002]: ../adr/adr-0002-skip-user-stories-and-use-cases.md
 [BC-001]: ../business-case.md
+[1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1

@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | [1428c08] |
 
 ---
 
@@ -61,3 +61,4 @@ Go: all 18 criteria of [QC-PY-001] are Pass or N-A with a reason, so the four bl
 [MIL-002]: ../milestones/mil-002-first-release.md
 [ADR-0002]: ../adr/adr-0002-skip-user-stories-and-use-cases.md
 [RC-008]: ./rc-008-python-code-first-review.md
+[1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1

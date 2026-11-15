@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | [1428c08] |
 
 ---
 
@@ -43,3 +43,4 @@ Go: criterion 10 passes, so the change to [PP-001] is accepted.
 [PP-001]: ../../project-plan.md
 [QC-PP-001]: ../../../framework/qc/artifacts/qc-project-plan.md
 [RC-004]: ./rc-004-project-plan.md
+[1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1
