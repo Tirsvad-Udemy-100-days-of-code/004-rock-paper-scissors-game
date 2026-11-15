@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added MIL-003, the wiki, RC-011, RC-012 and RC-013; accepted on S01's instruction in chat, 2026-11-15 | [4f0682a] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added RC-014 to RC-016 and the Danish and Malay wiki; accepted on S01's instruction in chat, 2026-11-15 | [974b467] |
+| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added RC-014 to RC-016 and the Danish and Malay wiki; accepted on S01's instruction in chat, 2026-11-15 | [974b467] |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added RC-017, the closing wiki review; accepted on S01's instruction in chat, 2026-11-15 | pending |
 
 ---
 
@@ -33,7 +33,7 @@ updated whenever an artifact instance is created or reviewed.
 | [MIL-002] | Milestone | en | it | [MIL-001] | Source code, [MIL-003] | [RC-006] |
 | [MIL-003] | Milestone | en | it | [MIL-002] | Wiki | [RC-014] |
 | Source code (`src/`, `tests/`) | Python code | - | - | [MIL-002] | - | [RC-009] |
-| Wiki (`docs/wiki/`) | Wiki | en, da, ms | - | [MIL-003] | - | [RC-016] |
+| Wiki (`docs/wiki/`) | Wiki | en, da, ms | - | [MIL-003] | - | [RC-017] |
 
 ## Concern Coverage
 
@@ -77,6 +77,7 @@ updated whenever an artifact instance is created or reviewed.
 [RC-014]: ./reviews/rc-014-mil-003-languages.md
 [RC-015]: ./reviews/rc-015-project-plan-languages.md
 [RC-016]: ./reviews/rc-016-wiki-second-review.md
+[RC-017]: ./reviews/rc-017-wiki-closing-review.md
 [MIL-003]: ../milestones/mil-003-wiki.md
 [ADR-0002]: ../adr/adr-0002-skip-user-stories-and-use-cases.md
 [PP-001]: ../project-plan.md
