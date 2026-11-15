@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Proposed | Jens Tirsvad Nielsen | <reviewer S-ID> | Initial version | pending |
+| 2026-11-15 | Proposed | Jens Tirsvad Nielsen | <reviewer S-ID> | Initial version | [7eb2233] |
 
 ---
 
@@ -61,3 +61,4 @@ there is none. Every cell is filled (`process/review-checklist-process.md`).
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [MIL-003]: ../../milestones/mil-003-wiki.md
 [RC-016]: ./rc-016-wiki-second-review.md
+[7eb2233]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/7eb2233035ad7a72beed89e0f1ed450cf3a4a8ad
