@@ -4,60 +4,53 @@
 | Key | Value |
 | --- | --- |
 | ID | RC-017 |
-| CrossReference | [QC-WIKI-001], [MIL-003], [RC-016] |
+| CrossReference | [QC-LANG-001], [QC-WIKI-001], [MIL-003], [RC-016] |
 
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Proposed | Jens Tirsvad Nielsen | <reviewer S-ID> | Initial version | [7eb2233] |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted on S01's instruction in chat, 2026-11-15 | [7eb2233] |
 
 ---
 
 ## Artifact Under Review
 
-- Instance reviewed: [<INSTANCE-ID>]
-- Checklist used: [<QC-ID>] (`QC-<short-name>-<version>`, e.g. `QC-BC-001`)
-- Scope: <full review | delta re-review of criteria <numbers>, reason, earlier record [<RC-ID>]>
-- Language and domain: <Language> / <Domain> (the artifact's Metadata rows), or `n/a` for a technical type
-- Language reviewer: <stakeholder ID>, or `none` when the reviewer reads the language and knows the domain
-- Mode: <supervised | autonomous, not independent> (autonomous: the reviewer is `AI as stand-in for <stakeholder ID>`)
+- Instance reviewed: the wiki in `docs/wiki/` as published on the host (task 5 of [MIL-003])
+- Checklist used: [QC-WIKI-001], with criteria 3, 5 and 9 of [QC-LANG-001]
+- Scope: delta re-review of wiki criterion 14 and Language and Domain criteria 3, 5 and 9, which were Pending in [RC-016]
+- Language and domain: en, da, ms / it
+- Language reviewer: S01 (reads the Danish and Malay editions and confirmed them in chat)
+- Mode: autonomous, not independent (the AI assistant ran the checks; S01 confirmed the language criteria)
 
 ## Checklist Results
 
 | # | Criterion | Status | Evidence/Notes |
 | --- | --- | --- | --- |
-| 1 | <criterion copied from the QC checklist> | Pass/Fail/N-A/Pending | |
+| 14 | The sidebar, every page and every link were checked on the published wiki after the change, not only in the repository (Mandatory) | Pass | After the merge the host lists 15 pages and `_Sidebar`; the sidebar, `Home-da` and `Play-ms` were fetched from the host, and a check of every relative link on all 16 published pages found no dead link. |
 
 ## Language and Domain Results
 
-Only for an artifact of a type written in the PO language: the rows of
-`QC-LANG-001`, in order. Delete this section for a technical type.
+Checklist used: [QC-LANG-001].
 
 | # | Criterion | Status | Evidence/Notes |
 | --- | --- | --- | --- |
-| 1 | <criterion copied from QC-LANG-001> | Pass/Fail/N-A/Pending | |
-
-## Risk Exceptions
-
-Only when a blocking finding is accepted for a time; delete this section when
-there is none. Every cell is filled (`process/review-checklist-process.md`).
-
-| Finding | Owner | Approver | Expiry | Compensating controls |
-| --- | --- | --- | --- | --- |
-| <criterion or security finding, with its rating> | <stakeholder ID> | <stakeholder ID of the escalation role> | <YYYY-MM-DD> | <what reduces the risk, and how it is checked> |
+| 3 | The content (prose and table cells) is written in the stated language (Mandatory) | Pass | Confirmed by S01 in chat on 2026-11-15 for the Danish and the Malay edition. |
+| 5 | Domain terms are the PO terms of the domain's dictionary, with no synonyms (Mandatory) | Pass | Confirmed by S01 in chat on 2026-11-15 for the Danish and the Malay edition. |
+| 9 | A reviewer competent in the domain, and in the language, has confirmed that the domain terms are used correctly (Mandatory) | Pass | Confirmed by S01 in chat on 2026-11-15 for the Danish and the Malay edition. |
 
 ## Overall Verdict
 
-<Go / Go-with-conditions / No-Go> — <rationale; a blocking finding gives No-Go unless a risk exception covers it; a Pending criterion allows Go-with-conditions at most>
+Go: criterion 14 passes on the published wiki and S01 confirmed the language criteria 3, 5 and 9 for Danish and Malay, so the conditions of [RC-016] are closed and the wiki is `Go`. MIL-003 Go/No-Go criteria 4 and 5 are met.
 
 ## Action Items
 
 | Action | Owner | Due |
 | --- | --- | --- |
-| <action> | <stakeholder ID, e.g. S07> | <date> |
+| None | - | - |
 
 ---
 
+[QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [MIL-003]: ../../milestones/mil-003-wiki.md
 [RC-016]: ./rc-016-wiki-second-review.md
