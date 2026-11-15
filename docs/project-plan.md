@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-004 (Go) | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-004 (Go) | [d3c74f5] |
 
 ---
 
@@ -96,3 +96,4 @@ MIL-002 moves only the end date. S01 decides any move of the end date.
 [ADR-0002]: ./adr/adr-0002-skip-user-stories-and-use-cases.md
 [MS-001]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/milestone/499
 [MS-002]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/milestone/500
+[d3c74f5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/d3c74f56d4214003f20c8c78a96173b793e43a56

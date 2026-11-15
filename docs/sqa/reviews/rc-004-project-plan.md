@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Proposed | Claude (AI assistant) | S01 | Initial version | pending |
+| 2026-11-15 | Proposed | Claude (AI assistant) | S01 | Initial version | [d3c74f5] |
 
 ---
 
@@ -74,3 +74,4 @@ Go: all 15 criteria of [QC-PP-001] pass and no criterion is Pending. S01 accepte
 [PP-001]: ../../project-plan.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [QC-PP-001]: ../../../framework/qc/artifacts/qc-project-plan.md
+[d3c74f5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/d3c74f56d4214003f20c8c78a96173b793e43a56

@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-002 (Go) | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-002 (Go) | [d3c74f5] |
 
 ---
 
@@ -77,3 +77,4 @@ project is a one-person learning prototype, so the register is short.
 ---
 
 [BC-001]: ./business-case.md
+[d3c74f5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/d3c74f56d4214003f20c8c78a96173b793e43a56

@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Proposed | Claude (AI assistant) | S01 | Initial version | pending |
+| 2026-11-15 | Proposed | Claude (AI assistant) | S01 | Initial version | [d3c74f5] |
 
 ---
 
@@ -68,3 +68,4 @@ Go: all criteria of [QC-SA-001] pass, and S01 confirmed Language and Domain crit
 [SA-001]: ../../stakeholder-analysis.md
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [QC-SA-001]: ../../../framework/qc/artifacts/qc-stakeholder-analysis.md
+[d3c74f5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/d3c74f56d4214003f20c8c78a96173b793e43a56
