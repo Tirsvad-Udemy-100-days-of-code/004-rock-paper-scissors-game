@@ -10,7 +10,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added the source code row and RC-009, RC-010; accepted on S01's instruction in chat, 2026-11-15 | [1428c08] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added MIL-003, the wiki, RC-011, RC-012 and RC-013; accepted on S01's instruction in chat, 2026-11-15 | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added MIL-003, the wiki, RC-011, RC-012 and RC-013; accepted on S01's instruction in chat, 2026-11-15 | [4f0682a] |
 
 ---
 
@@ -81,3 +81,4 @@ updated whenever an artifact instance is created or reviewed.
 [MIL-002]: ../milestones/mil-002-first-release.md
 [d3c74f5]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/d3c74f56d4214003f20c8c78a96173b793e43a56
 [1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1
+[4f0682a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/4f0682a2233d43d9da078d6dfcecf3cfcb2a1c84

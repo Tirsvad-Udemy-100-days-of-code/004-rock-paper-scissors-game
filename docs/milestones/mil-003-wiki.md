@@ -11,7 +11,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-011 (Go) | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-011 (Go) | [4f0682a] |
 
 ---
 
@@ -70,3 +70,4 @@ The wiki in `docs/wiki/` (flat folder): `Home`, `Install`, `Play`, `Architecture
 [BC-001]: ../business-case.md
 [PP-001]: ../project-plan.md
 [MIL-002]: ./mil-002-first-release.md
+[4f0682a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/4f0682a2233d43d9da078d6dfcecf3cfcb2a1c84

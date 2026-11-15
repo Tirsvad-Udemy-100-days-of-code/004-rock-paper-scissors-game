@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Proposed | Claude (AI assistant) | S01 | Initial version | pending |
+| 2026-11-15 | Proposed | Claude (AI assistant) | S01 | Initial version | [4f0682a] |
 
 ---
 
@@ -75,3 +75,4 @@ Go-with-conditions: every Mandatory criterion of [QC-WIKI-001] passes except cri
 [QC-LANG-001]: ../../../framework/qc/artifacts/qc-language-domain.md
 [QC-WIKI-001]: ../../../framework/qc/artifacts/qc-wiki.md
 [MIL-003]: ../../milestones/mil-003-wiki.md
+[4f0682a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/4f0682a2233d43d9da078d6dfcecf3cfcb2a1c84
