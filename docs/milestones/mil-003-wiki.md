@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Initial version; accepted after RC-011 (Go) | [4f0682a] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added Danish and Malay editions to the deliverable and a translation task, at S01's request; accepted after RC-014 (Go) | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added Danish and Malay editions to the deliverable and a translation task, at S01's request; accepted after RC-014 (Go) | [974b467] |
 
 ---
 
@@ -73,3 +73,4 @@ The wiki in `docs/wiki/` (flat folder): the pages `Home`, `Install`, `Play`, `Ar
 [PP-001]: ../project-plan.md
 [MIL-002]: ./mil-002-first-release.md
 [4f0682a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/4f0682a2233d43d9da078d6dfcecf3cfcb2a1c84
+[974b467]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/974b46770f865529c2f2d8808e7e6e97b4ccbc66

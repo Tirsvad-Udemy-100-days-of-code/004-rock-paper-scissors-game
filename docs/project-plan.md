@@ -12,7 +12,7 @@
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added gateway MIL-003 Wiki at S01's request; accepted after RC-012 (Go) | [4f0682a] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Wiki deliverable now in English, Danish and Malay at S01's request; accepted after RC-015 (Go) | pending |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Wiki deliverable now in English, Danish and Malay at S01's request; accepted after RC-015 (Go) | [974b467] |
 
 ---
 
@@ -109,3 +109,4 @@ time it takes to fix the finding; a No-Go on MIL-003 moves only the end date. S0
 [1428c08]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/1428c081485708bd32faf83a277b5f47b43ef5c1
 [MS-003]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/milestone/501
 [4f0682a]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/4f0682a2233d43d9da078d6dfcecf3cfcb2a1c84
+[974b467]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/004-rock-paper-scissors-game/commit/974b46770f865529c2f2d8808e7e6e97b4ccbc66
