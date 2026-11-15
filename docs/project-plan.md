@@ -11,7 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Initial version; accepted after RC-004 (Go) | [d3c74f5] |
+| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Initial version; accepted after RC-004 (Go) | [d3c74f5] |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Closed the open issue on the coloured title (kept, RC-008); accepted after RC-010 (Go) | pending |
 
 ---
 
@@ -82,8 +83,6 @@ MIL-002 moves only the end date. S01 decides any move of the end date.
 
 ## Open Issues
 
-- The Business Case says "ASCII art"; the game also colours its title. The
-  review in [MIL-002] task 1 decides whether the colouring stays.
 - No publish workflow is installed, so publishing the milestones to the git
   host needs `sync-project.sh --apply` and a token.
 
