@@ -1,4 +1,4 @@
-**English**
+**English** · [Dansk](Home-da) · [Bahasa Melayu](Home-ms)
 
 # Rock Paper Scissors Game
 

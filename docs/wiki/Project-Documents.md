@@ -1,4 +1,4 @@
-**English**
+**English** · [Dansk](Project-Documents-da) · [Bahasa Melayu](Project-Documents-ms)
 
 # Project documents
 
