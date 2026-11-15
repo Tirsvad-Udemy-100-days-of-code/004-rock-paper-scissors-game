@@ -11,8 +11,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Closed the open issue on the coloured title (kept, RC-008); accepted after RC-010 (Go) | [1428c08] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added gateway MIL-003 Wiki at S01's request; accepted after RC-012 (Go) | [4f0682a] |
+| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added gateway MIL-003 Wiki at S01's request; accepted after RC-012 (Go) | [4f0682a] |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Wiki deliverable now in English, Danish and Malay at S01's request; accepted after RC-015 (Go) | pending |
 
 ---
 
@@ -29,7 +29,8 @@ deadline and no budget, so the window is a soft one that S01 set on
   S01; source: chat, 2026-11-15).
 - There are three gateways, one per phase: the baseline documents, the first
   release, then the wiki. S01 added the wiki gateway in chat on 2026-11-15
-  after the first release was delivered; the wiki is a project document the
+  after the first release was delivered, and later asked for Danish and Malay
+  editions on top of English; the wiki is a project document the
   framework describes, so it falls under the Business Case scope item "the
   project documents the framework requires" and needs no change to
   [BC-001].
@@ -45,7 +46,7 @@ deadline and no budget, so the window is a soft one that S01 set on
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Baseline | [MIL-001] | 2026-11-15 | 2026-11-15 | S01 | none (technical tasks, [ADR-0002]) | Business Case, Stakeholder Analysis, Project Plan and the milestones accepted, with ADR-0001, ADR-0002 and the framework repository rules applied | [Milestone 1][MS-001] |
 | First release | [MIL-002] | 2026-11-15 to 2026-11-16 | 2026-11-16 | S01 | none (technical tasks, [ADR-0002]) | The reviewed game, its tests and its README | [Milestone 2][MS-002] |
-| Wiki | [MIL-003] | 2026-11-15 to 2026-11-16 | 2026-11-16 | S01 | none (technical tasks, [ADR-0002]) | The English wiki in `docs/wiki/`, reviewed and published | [Milestone 3][MS-003] |
+| Wiki | [MIL-003] | 2026-11-15 to 2026-11-16 | 2026-11-16 | S01 | none (technical tasks, [ADR-0002]) | The English, Danish and Malay wiki in `docs/wiki/`, reviewed and published | [Milestone 3][MS-003] |
 
 ```plantuml
 @startgantt

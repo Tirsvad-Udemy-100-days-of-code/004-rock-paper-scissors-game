@@ -9,8 +9,8 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added the source code row and RC-009, RC-010; accepted on S01's instruction in chat, 2026-11-15 | [1428c08] |
-| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added MIL-003, the wiki, RC-011, RC-012 and RC-013; accepted on S01's instruction in chat, 2026-11-15 | [4f0682a] |
+| 2026-11-15 | Deprecated | Claude (AI assistant) | S01 | Added MIL-003, the wiki, RC-011, RC-012 and RC-013; accepted on S01's instruction in chat, 2026-11-15 | [4f0682a] |
+| 2026-11-15 | Accepted | Claude (AI assistant) | S01 | Added RC-014 to RC-016 and the Danish and Malay wiki; accepted on S01's instruction in chat, 2026-11-15 | pending |
 
 ---
 
@@ -28,12 +28,12 @@ updated whenever an artifact instance is created or reviewed.
 | [SA-001] | Stakeholder Analysis | en | it | [BC-001] | - | [RC-002] |
 | [ADR-0001] | Architecture Decision Record | - | - | [BC-001] | - | [RC-003] |
 | [ADR-0002] | Architecture Decision Record | - | - | [BC-001], [SA-001] | [MIL-001], [MIL-002] | [RC-007] |
-| [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003] | [RC-012] |
+| [PP-001] | Project Plan | en | it | [BC-001], [SA-001] | [MIL-001], [MIL-002], [MIL-003] | [RC-015] |
 | [MIL-001] | Milestone | en | it | [PP-001] | [MIL-002] | [RC-005] |
 | [MIL-002] | Milestone | en | it | [MIL-001] | Source code, [MIL-003] | [RC-006] |
-| [MIL-003] | Milestone | en | it | [MIL-002] | Wiki | [RC-011] |
+| [MIL-003] | Milestone | en | it | [MIL-002] | Wiki | [RC-014] |
 | Source code (`src/`, `tests/`) | Python code | - | - | [MIL-002] | - | [RC-009] |
-| Wiki (`docs/wiki/`) | Wiki | en | - | [MIL-003] | - | [RC-013] |
+| Wiki (`docs/wiki/`) | Wiki | en, da, ms | - | [MIL-003] | - | [RC-016] |
 
 ## Concern Coverage
 
@@ -74,6 +74,9 @@ updated whenever an artifact instance is created or reviewed.
 [RC-011]: ./reviews/rc-011-mil-003.md
 [RC-012]: ./reviews/rc-012-project-plan-wiki.md
 [RC-013]: ./reviews/rc-013-wiki-first-review.md
+[RC-014]: ./reviews/rc-014-mil-003-languages.md
+[RC-015]: ./reviews/rc-015-project-plan-languages.md
+[RC-016]: ./reviews/rc-016-wiki-second-review.md
 [MIL-003]: ../milestones/mil-003-wiki.md
 [ADR-0002]: ../adr/adr-0002-skip-user-stories-and-use-cases.md
 [PP-001]: ../project-plan.md

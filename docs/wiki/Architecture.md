@@ -1,4 +1,4 @@
-**English**
+**English** · [Dansk](Architecture-da) · [Bahasa Melayu](Architecture-ms)
 
 # Architecture
 

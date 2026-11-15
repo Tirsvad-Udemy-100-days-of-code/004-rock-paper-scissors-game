@@ -1,4 +1,4 @@
-**English**
+**English** · [Dansk](Play-da) · [Bahasa Melayu](Play-ms)
 
 # Play
 
